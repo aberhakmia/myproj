@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>accessbility</title>
+    <!--وهي مجموعة من القواعد من اجل امكانية الوصول-للمحتوى-->
+    <!--من اجل الذين يعانون من ضعف في النظر او السمع او او-->
+    <!--ولا تطبقها كل المواقع-->
+</head>
+
+<body>
+    <form action="">
+        <label for="user">username</label>
+        <input id="user" type="text">
+        <button>send</button>
+        <button>reset</button>
+    </form>
+    <!--هنا نتعلم كيف نعمل check to accessbility لمعرفة العيوب في الموقع-->
+    <!--مثلا احد العيوب انو الفورم ما الو label-->
+
+    <form action=""> <!--<طريقة اولى-->
+        <label for="skill1">skill one</label>
+        <input id="skill1" type="checkbox" checked>
+        <label for="skill2">skill two
+            <input id="skill2" type="checkbox">
+    </form>
+    <hr> <!--طريقة تانية-->
+    <div role="checkbox" aria-checked="true" tabindex="0" aria-labelledby="plan1">plan one</div>
+    <label id="plan1">plan one label</label>
+    <div tabindex="0">plan two</div>
+    <div tabindex="0">plan three</div>
+
+
+</body>
+
+</html>

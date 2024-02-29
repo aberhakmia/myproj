@@ -1,0 +1,25 @@
+ul {
+    list-style-type: armenian;
+    list-style-position: outside;
+    /* list-style-image: url('c:\Users\Dell\Documents\Snapchat-1443857771.jpg'); */
+    /* list-style: disc inside none;  نستطيع كتابة جميع الخائص في سطر واحد */
+}
+
+ul li {
+    border: 1px dotted greenyellow
+}
+
+.child {
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+}
+
+.container {
+    width: 800px;
+    margin: 10px auto;
+    background: #00f;
+    padding: 10px
+}

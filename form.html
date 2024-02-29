@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>
+        book store
+    </title>
+</head>
+
+<body>
+    <form action="" method="post" novalidate target="_blank">
+        <!--target بيبعت البيانات في مكان جديد وبيترك الصفحة الاساسية فيها البيانات كلا مشان ما تختفي البيانات ومشان اذا بدنا نعمل اختبار لحقل معين يكون فينا نشوفو-->
+        <!--novalidate اي نستطيع ارسال البيانات من غير ان نملا الحقول-->
+        <!-- خاص بال back end (اي البيانات سوف ترسل الى ملف abeer.php) -->
+        <div>
+            <label>username</label>
+            <input type="text" required placeholder="enter your name" name="user">
+        </div>
+        <br>
+        <div>
+            <label>subject</label>
+            <input type="text" name="sub">
+            <!-- نلاحظ هنا حتى لو تركنا هذا الحقل فارغ لا يهم ولا يطلب منا سوى ان نملا الحقول التي هي requiread -->
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="email" required placeholder="write a valid email" value="abeer@123qw" name="mail">
+            <!-- اذا ادخلنا قيمة عادية في الايميل لا  يقبلها دون وضع @ والتكملة ويعطي رسالة -->
+            <!-- value هي القيمة الافتراضية ونستطيع حذفها وادخال قيمة جديدة -->
+        </div>
+        <br>
+        <div>
+            <label> password</label>
+            <input type="password" required placeholder="write complex password" name="pass">
+        </div>
+        <input type="submit" value="save">
+        <!-- لارسال البيانات وبعد الضغط عليها بتعمل refreash  وبترجع البيانات فاضية يعني الاساسية-->
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+.ee {
+    color: rgb(245, 59, 174 /5%);
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(218, 155, 155);
+    background-image: url(../css/image/Snapchat-1443857771.jpg);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: center;
+    /* background-position: 100px 50px; */
+    /* background-position: left bottom; */
+    background-size: contain;
+    /*تملا جميع المحتوى وليس بالضرورة ان تظهر بشكل كامل* cover/
+    /* background-size: contain; تظهر الصورة بشكل كامل */
+    height: 400px;
+}
+
+.three {
+    color: blue;
+}
+
+.test {
+    color: rgb(221, 32, 32);
+}
+
+.app {
+    width: 800px;
+    height: 330px;
+    background: #DDD;
+    color: #00F;
+    direction: ltr;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    margin: 10px 0px;
+    line-height: 100px;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 60px;
+    text-transform: uppercase;
+}
+
+.app :hover {
+    text-decoration: overline;
+    text-decoration: line-through;
+}
+
+.pad {
+    background: #DDD;
+    padding: 10px;
+    /* لا يقبل قيم سالبة */
+    /*top right bottom left */
+    margin: 20px;
+    /*يقبل قيم سالبة */
+}
+
+h2 {
+    text-indent: 60px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: medium;
+    font-weight: lighter;
+}

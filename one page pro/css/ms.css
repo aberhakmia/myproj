@@ -1,0 +1,93 @@
+body {
+
+    padding: 0;
+    margin: 0;
+    border: rgb(233, 32, 32) solid;
+
+    border-radius: 5px;
+    background-image: url('../css/image2/0462.jpg');
+    background-attachment: scroll;
+    background-size: contain;
+    /* background-position: right top; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    /* العناصر بالمنتصف*/
+    /* background-size: 150% 100%; */
+    /* align-content: center; */
+
+}
+
+* {
+
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    background-size: cover;
+
+}
+
+.container {
+    /* background: transparent; */
+    background-attachment: scroll;
+    width: 500px;
+    background-color: rgba(240, 248, 255, 0.692);
+    padding: 20px;
+
+
+    /*border-radius: 5px;*/
+}
+
+.ph,
+.em,
+.eg,
+.ps,
+.ad,
+.dt {
+    border-radius: 5px;
+    border-color: blueviolet;
+    cursor: default;
+    width: 200px;
+    height: 25px;
+}
+
+#un {
+    border-radius: 5px;
+    border-color: blueviolet;
+    cursor: default;
+    overflow: unset;
+    width: 200px;
+    height: 25px;
+}
+
+.three {
+    font-size: small;
+    text-align: center;
+    color: blue;
+    margin-top: 0px;
+}
+
+.three:hover {
+    text-decoration: underline;
+    text-indent: 0px;
+}
+
+.ch {
+
+
+    text-align: left;
+
+}
+
+.sub,
+.res {
+    color: white;
+    background-color: rgb(79, 127, 231);
+    border-radius: 5px;
+}
+
+.res:hover,
+.sub:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+}

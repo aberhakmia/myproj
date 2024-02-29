@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+
+}
+
+header p {
+    font-size: 8px;
+    margin: 1.2em 0;
+    text-align: center;
+}
+
+.log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 0 0;
+}
+
+header img {
+    max-width: 100%;
+    width: 200px;
+}
+
+.section .btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.section button {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin-inline: auto;
+    padding: 0.78em 4em;
+    color: #fff;
+    font-size: 10px;
+    border: none;
+    font-weight: bold;
+    background-color: #4cb4f9;
+    border-radius: 8px;
+    margin-top: 3em;
+}
+
+.form p {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.meta {
+    margin-top: 15em;
+    display: flex;
+    margin-inline: auto;
+    align-items: center;
+}

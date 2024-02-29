@@ -1,0 +1,36 @@
+body {
+
+    background-image: url(../css/2-37-1.jpg);
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center top;
+    background-repeat: no-repeat;
+    image: alpha 100px;
+}
+
+
+.one {
+    font-size: larger;
+
+}
+
+.two {
+    height: 30px;
+    width: 250px;
+}
+
+.three {
+    color: blue;
+}
+
+.tt {
+    line-height: 0px;
+}
+
+.three:hover {
+    text-decoration: underline;
+}
+
+.ss {
+    line-height: 200%;
+}
